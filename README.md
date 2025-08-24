@@ -34,7 +34,20 @@
 4. Open `http://localhost:5173`
 
 ## Folder Structure
-V_learn/ ├── backend/ │ ├── app.py │ ├── requirements.txt │ └── ... ├── frontend/ │ ├── src/ │ │ └── App.jsx │ ├── vite.config.js │ └── ... ├── .gitignore ├── README.md └── ...
+
+V_learn/
+├── backend/
+│ ├── app.py
+│ ├── requirements.txt
+│ └── ...
+├── frontend/
+│ ├── src/
+│ │ └── App.jsx
+│ ├── vite.config.js
+│ └── ...
+├── .gitignore
+├── README.md
+└── ...
 
 ## How It Works
 
