@@ -18,10 +18,6 @@
 | Database   | MongoDB                   |
 | Visualization APIs | OpenAI, Google Data Studio|
 
-## Demo Screenshot
-
-> _(add a screenshot/gif here of V_learn visualizing a topic)_
-
 ## Quick Start
 
 1. `git clone https://github.com/yourusername/V_learn.git`
@@ -38,4 +34,25 @@
 4. Open `http://localhost:5173`
 
 ## Folder Structure
+V_learn/
+├── backend/
+│ ├── app.py
+│ ├── requirements.txt
+│ └── ...
+├── frontend/
+│ ├── src/
+│ │ └── App.jsx
+│ ├── vite.config.js
+│ └── ...
+├── .gitignore
+├── README.md
+└── ...
+
+
+
+## How It Works
+
+- **User inputs topic** (e.g., "https").
+- **Backend** triggers OpenAI API to generate a process diagram or GIF for that topic; if charts/statistics needed, calls Google Data Studio API.
+- **Visualization or animation** returned to **frontend** and displayed inside a clean, white-background card.
 
