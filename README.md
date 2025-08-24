@@ -34,7 +34,7 @@
 4. Open `http://localhost:5173`
 
 ## Folder Structure
-
+```
 V_learn/
 ├── backend/
 │ ├── app.py
@@ -48,6 +48,7 @@ V_learn/
 ├── .gitignore
 ├── README.md
 └── ...
+```
 
 ## How It Works
 
